@@ -1,0 +1,61 @@
+/* i want to pull out common pieces between ios and .android_buttons
+but can't combine add 2 classes yet? */
+/* .button {
+  width: 333px;
+  height: 61px;
+  border-radius: 3;
+} */
+
+.buttonText {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-auto-columns: auto; */
+  /* grid-template-columns: auto auto; */
+  /* align-content: center; */
+  justify-content: center;
+  /* justify-items: center; */
+  align-items: center;
+  /* gap: <grid-row-gap> <grid-column-gap>; */
+  gap: 0 0.5rem;
+}
+
+/* display: grid;
+  grid-template-columns: 95.5px 17px 125px 95.5px;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center; */
+
+.ios_button {
+  width: 100%; 
+  height: 61px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--black);
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  /* text-decoration: none; */
+  /* display: inline-block; */
+
+}
+
+.ios_button:hover {
+  background-color: var(--green);
+}
+
+.android_button {
+  width: 100%; 
+  height: 61px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--white);
+  border: none;
+  color: var(--black);
+}
+
+.android_button:hover {
+  background-color: var(--orange);
+}
