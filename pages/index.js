@@ -1,5 +1,4 @@
 import Head from 'next/head'
-// import Image from 'next/image'
 import Button from '../components/Button'
 import styles from '../styles/Home.module.css'
 import Logo from '../components/Logo'
@@ -87,21 +86,3 @@ export default function Home() {
     </>
   )
 }
-
-
-{/* <br />
-          <br />
-          <Button
-            type='ios_button'
-            text='iOS Download'
-            icon='icon-apple.svg'
-          />
-          <br />
-          <br />
-          <Button
-            type='android_button'
-            text='Android Download'
-            icon='icon-android.svg'
-          />
-          <br />
-          <br /> */}

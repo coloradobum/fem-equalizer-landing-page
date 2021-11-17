@@ -1,16 +1,5 @@
 .container {
-  /* display: grid; */
-  /* grid-template-columns: 375px; */
   width: 375px;
-
-  /* mobile */
-  /* justify-items: center; */
-  /* justify-content: left; */
-  
-
-
-
-  /* padding: 0 2rem; */
   background-image: url(../public/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-position: 0% -30%;
@@ -19,26 +8,16 @@
 .prebody {
   width: 327px;
   margin: auto;
-  /* display: grid; */
-  /* justify-content: right; */
-  /* justify-items: right; */
   margin: 2.5rem;
 }
 
-/* .prebody > * {
-  border: 2px solid red;
-} */
-
 .mainbody {
   display: grid;
-  /* justify-items: center; */
-
 }
 
 .layer1 {
   display: grid;
   justify-content: center;
-  /* height: 400px; */
   border-radius: 10px;
   z-index: 1;
 }
@@ -64,34 +43,18 @@
   height: 440px;
   border-radius: 10px;
   margin-top: -75px;
-
-  /* padding: 0px 1.51rem; */
   display: grid;
   justify-content: center;
-  /* justify-items: center; */
 }
 
 .layer3-content {
   width: 327px;
-  /* margin: auto; */
-  /* border: 2px solid green; */
-
-
 }
 
 .layer3-content > * {
-  /* border: 2px solid red; */
   display: grid;
-  /* align-items: center; */
-  /* align-content: center; */
-  /* justify-items: center; */
-  /* justify-content: center; */
-
 }
 
-/* .price > * {
-  border: 1px solid red;
-} */
 .price {
  display: grid;
  grid-template-columns: auto auto;
@@ -113,14 +76,9 @@
 
 .buttons button {
   margin-top: 15px;
-  /* border: 1px solid red; */
 }
 
 .footer {
   width: 327px;
   margin: auto;
-}
-
-@media (max-width: 375px) {
-  
 }
